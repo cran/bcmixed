@@ -30,7 +30,7 @@
 #'
 #' @examples data(aidscd4)
 #'
-#' @source \url{https://www.hsph.harvard.edu/fitzmaur/ala/}
+#' @source \url{https://content.sph.harvard.edu/fitzmaur/ala2e/}
 #'
 #' @references \itemize{
 #'   \item Henry, K., Erice, A., Tierney, C., Balfour, H.H. Jr., Fischl, M.A.,
@@ -42,9 +42,9 @@
 #'         alternating drug) for the treatment of advanced AIDS.
 #'         \emph{Journal of Acquired Immune Deficiency Syndromes and
 #'         Human Retrovirology}, 19, 339-349,
-#'         \url{https://doi.org/10.1097/00042560-199812010-00004}.
+#'         \doi{10.1097/00042560-199812010-00004}.
 #'   \item Fitzmaurice, G.M., Laird, N.M., and Ware, J.H. (2011).
 #'         \emph{Applied Longitudinal Analysis 2nd ed.}, Wiley, New York,
-#'         \url{https://doi.org/10.1002/9781119513469}.
+#'         \doi{10.1002/9781119513469}.
 #'   }
 NULL

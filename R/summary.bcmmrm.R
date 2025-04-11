@@ -14,7 +14,7 @@
 #' None are used in this method.
 #'
 #' @return an object inheriting from class \code{summary.bcmmrm} with all
-#' components included in \code{object} (see \code{\link{glsObject}} for
+#' components included in \code{object} (see \code{\link[nlme]{glsObject}} for
 #' a full description of the components) plus the following components:
 #' \describe{
 #'   \item{\code{median}}{a list including inference results of the model median
@@ -31,7 +31,9 @@
 #'
 #' @examples
 #'  data(aidscd4)
-#'  resar <- bcmarg(cd4 ~ as.factor(treatment), aidscd4, weekc, id, "AR(1)")
+#'  resar <- bcmmrm(outcome = cd4, group = treatment, data = aidscd4,
+#'                  time = weekc, id = id, structure = "AR(1)",
+#'                  glabel = c("Zid/Did", "Zid+Zal", "Zid+Did", "Zid+Did+Nev"))
 #'  summary(resar)
 #'
 #' @export
